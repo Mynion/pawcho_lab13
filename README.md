@@ -26,6 +26,16 @@ docker compose up -d
 ```
 <img width="1461" height="212" alt="Zrzut ekranu 2026-06-15 175959" src="https://github.com/user-attachments/assets/ad9551f7-77b9-450c-a87c-30885e7fec3f" />
 
+### Sprawdzenie konfiguracji
+```
+docker compose config
+```
+<img width="1100" height="942" alt="image" src="https://github.com/user-attachments/assets/5d15480f-05ca-4994-b34a-24812409d741" />
+<img width="1127" height="918" alt="image" src="https://github.com/user-attachments/assets/a7347936-61fc-40e1-8e09-4ab93dc84d04" />
+<img width="1121" height="272" alt="image" src="https://github.com/user-attachments/assets/54a650a7-8bbb-4e14-b50f-a0b446dcf5d6" />
+
+Serwer phpMyAdmin jest podłączony do dwóch sieci, aby użytkownik miał dostęp do kontenera z poziomu przeglądarki (frontend) i aby było możliwe połączenie z mysql (backend).
+
 ### Sprawdzenie statusu kontenerów
 ```
 docker ps
