@@ -1,4 +1,4 @@
-# Laboratorium 13 – LEMP Stack (Docker Compose)
+# Laboratorium 13 + 13D – LEMP Stack (Docker Compose)
 
 ## 1. Opis projektu
 
